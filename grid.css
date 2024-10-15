@@ -1,33 +1,67 @@
-body
-{
-    background-color:yellowgreen ;
-    margin: 50px 50px;
+body{
+    background-color: antiquewhite;
 }
-
-.container
-{
+.container{
     display: grid;
     height: 600px;
-    width: 100%;border: 5px solid black;
-    background-color: rebeccapurple;
-    grid-template-columns: repeat(12, 1fr);
+    width: 100vw;
+    
+    border: 2px solid black;
+    grid-template-columns: repeat(12,1fr);
     grid-template-rows: repeat(6,1fr);
+    background-color: aqua;
+    
 
 }
-
-.A, .B, .C, .D, .E, .F, .G, .H, .I
-{
-    border: 4px double gray;
+ .child1,.child2,.child3,.child4{
+    background-color: burlywood;
+    border: 2px dotted red;
 }
-
-.A
-{
+.child1{
+    /* grid-column-start:6 ;
+    grid-column-end:8;
+    grid-row-start: 4;
+    grid-row-end: 5; */
     grid-column: 1/13;
     grid-row: 1/2;
     background-color: black;
     color: white;
-    height: 80px;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+   
+
+    
+
+
+
+}
+.row11 img{
+    height: 40px;
+    
+    
+}
+.child2{
+    grid-column: 1/13;
+    grid-row: 2/3;
+    background-color: rgb(15,17,17);
+    height: 50px;
+}
+ul li{
+    list-style-type: none;
+    display: inline;
+    color: white;
+    padding:20px;
+}
+li:hover{
+    background-color: cadetblue;
+}
+.child3 img{
+    width: 100vw;
+    
+}
+.child3{
+    grid-column: 1/13;
+    grid-row: 4/5;
+    background-color: burlywood;
 }
