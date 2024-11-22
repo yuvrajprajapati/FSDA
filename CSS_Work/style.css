@@ -1,0 +1,91 @@
+/* body
+{
+    background-color: aquamarine;
+}
+
+.container
+{
+    background-color: blueviolet;
+    height: 300px;
+    border: 2px solid red;
+}
+
+.child
+{
+    background-color: aliceblue;
+    height: 150px;
+    width: 400px;
+    border: 50px;
+    margin-left: 100px;
+    margin-top: 100px;
+    color: blue;
+    padding: 100px;
+    border-radius: 1000%
+}
+
+div>p
+{
+   background-color: yellow;
+} */
+
+/* #child
+{
+    background-color: yellow;
+}
+
+.myclass
+{
+    background-color: blueviolet;
+}
+
+.container
+{
+    background-color: green;
+    height: 400px;
+    border: 2px solid red;
+    margin: 100px;
+    padding: 20px;
+} */
+
+
+*
+{
+    background-color: violet;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+
+.container
+{
+    border: 2px;
+    padding: 10px;
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.child1
+{
+    background-color: red;
+    flex-basis: 50%;
+}
+
+.child2
+{
+    background-color: green;
+}
+
+.child3
+{
+    background-color: yellow;
+}
+
+.child4
+{
+    background-color: pink;
+}
