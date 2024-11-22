@@ -1,8 +1,7 @@
-.icard
+.imageCard
 {
     height: 250px;
     width: 200px;
-    background: cyan;
     border: 2px solid red;
-    align-items: center;
+    
 }
