@@ -1,26 +1,69 @@
-import React from 'react'
-import Student from './Student';
-import logo from './logo.png'
-import StudentState from './StudentState';
-import Image from "./image"
+import React from "react";
+import Student from "./student";
+import Pic from "./Pic.jpg";
+import StudentState from "./StudentState";
+import ImageManipulation from "./ImageManipulation";
+import UseEffectWorking from "./UseEffectWorking";
+import Registration from "../Registration";
+import Login from "../Login";
 
 function App() {
-    const studentdata={}
+  const Studentdata = {
+    college: "ABES ENGINEERING",
+    Pic: "https://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/car_4.png",
+    Roll: "47",
+    Branch: "CSEAIML",
+    Name: "Aryan Kumar Rathore",
+    section: "B",
+  };
+  // let a = 20;
+  // let mystyle = {
+  //   backgroundColor: "cyan",
+  //   color: "red",
+  //   border: "2px solid black",
+  // };
   return (
-    // <div style={{color:'Red'}}><h2>ABES Engineering College</h2>
-    // <div style={mystyle}>{a}</div>
-    <div style={{marginLeft:"300px"}}>
-      <Image/>
-      {/* <Student data={studentdata} /> */}
+    // <div style={{ color: "red" }}>
+    //   <h2>Apna college</h2>
+    //   <div style={mystyle}>{a}</div>
+    <div style={{ marginLeft: "200px" }}>
+      {/* <Student data={Studentdata}/> */}
       {/* <StudentState /> */}
-      {/* <div>
-          <Student name="Sahil Jaiswal" roll='2200321530143' college="Abes Engineeering College" branch="CSE-AIML" 
-           pic={<img src={logo} height={100} width={40}/>} 
-           />
-      </div> */}
+      {/* <ImageManipulation/> */}
+      {/* <UseEffectWorking/> */}
+      <Registration/>
+      {/* <Login/> */}
+      <div>
+        {/* <Student
+        college="ABES Engineering college"
+        Pic={<img src={Pic} height={80} width={80}></img>}
+        Roll="47"
+        Branch="CSEAIM"
+        Name="Aryan Kumar Rathore"
+        section="B"
+        
+      ></Student>
+        <Student
+        college="ABES Engineering college"
+        Pic={<img src={Pic} height={80} width={80}></img>}
+        Roll="47"
+        Branch="CSEAIM"
+        Name="Aryan Kumar Rathore"
+        section="B"
+        
+      ></Student>
+        <Student
+        college="ABES Engineering college"
+        Pic={<img src={Pic} height={80} width={100}></img>}
+        Roll="47"
+        Branch="CSEAIM"
+        Name="Aryan Kumar Rathore"
+        section="B"
+        
+      ></Student> */}
+      </div>
     </div>
-  
-  )
+  );
 }
 
-export default App
+export default App;

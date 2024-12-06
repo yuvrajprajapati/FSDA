@@ -1,0 +1,67 @@
+body{
+  background-color: aqua;
+}
+
+/* div{
+  background-color: bisque;
+} */
+
+.container{
+height: 300px;
+display: flex;
+margin: 100px;
+display: flex;
+/* flex-wrap: wrap; */
+justify-content: space-evenly;
+align-items: center;
+
+}
+/* 
+.child01{
+background-color: brown;
+height: 100px;
+width: 100px;
+margin-left: 300px;
+margin-top: 50px;
+color: aqua;
+padding: 40px;
+border-radius: 50%;
+}
+
+div+p{
+  background-color: yellow;
+}
+
+#child01{
+  background-color: yellow;
+}
+
+.myclass{
+  background-color: aqua;
+} */
+
+.child01, .child02, .child03, .child04{
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  /* display: inline-block; */
+}
+
+.child01{
+  background-color: brown;
+  flex-basis: 50%;
+}
+
+.child02{
+  background-color: aqua;
+}
+
+.child03{
+  background-color: antiquewhite;
+}
+
+.child04{
+  background-color: blue;
+}

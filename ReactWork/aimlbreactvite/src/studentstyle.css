@@ -1,8 +1,6 @@
-.icard
-{
-    height: 250px;
-    width: 200px;
-    background: cyan;
-    border: 2px solid red;
-    align-items: center;
+.icard{
+  height: 200px;
+  width: 250px;
+  border: 2px solid red;
+  /* background-color: yellow; */
 }

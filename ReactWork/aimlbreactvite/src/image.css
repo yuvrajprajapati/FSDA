@@ -1,24 +1,16 @@
-.imageCard
-{
-    height: 250px;
-    width: 200px;
-    border: 2px solid red;
-
+.imageCard{
+  height: 400px;
+  width: 300px;
+  border: 2px solid red;
 }
+.catdiv{
+  border: 1px solid black;
+  height: 150px;
+  width: 150px;
+  margin-left: 80px;
 
-.logoDiv
-{
-    border: 1px solid black;
-    height: 100px;
-    width: 100px;
-    /* margin-left: 100px; */
-    /* margin-top: 50px; */
-    background-color: aqua;
-
-
+  margin-top: 50px;
 }
-
-.button
-{
-    padding: ;
+.buttondiv{
+  margin-top: 150px;
 }
