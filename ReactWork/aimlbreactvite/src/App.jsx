@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Student from "./student";
 import Pic from "./Pic.jpg";
 import StudentState from "./StudentState";
@@ -16,6 +16,7 @@ function App() {
     Name: "Aryan Kumar Rathore",
     section: "B",
   };
+  const[sharedata,setShareData]=useState();
   // let a = 20;
   // let mystyle = {
   //   backgroundColor: "cyan",
@@ -31,7 +32,7 @@ function App() {
       {/* <StudentState /> */}
       {/* <ImageManipulation/> */}
       {/* <UseEffectWorking/> */}
-      <Registration/>
+      <Registration  regdata={setShareData}/>
       {/* <Login/> */}
       <div>
         {/* <Student
